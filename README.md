@@ -1,39 +1,22 @@
-# fuzzy-searcg
+#   Fuzzy Search Component
 
-This template should help get you started developing with Vue 3 in Vite.
+My best attempt to implement a fuzzy search component using Vue 3 and Typescript within the given 4-hour time frame. It allows users to search for products using a dummy API and displays the results in real time.
 
-## Recommended IDE Setup
+# Feaatures
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
++ Real-time search as you type
++ Debounced API calls to reduce network requests
++ Displaying search results with the product details plus ratings
++ Error handling for failed API requests
++ Selected product display with a clear option
 
-## Type Support for `.vue` Imports in TS
+# Technologies Used
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
++ Vue 3
++ Typescript
++ Vite
++ @vueues/core for utility functions
 
-## Customize configuration
+# API
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+For product data I used: https://dummyjson.com/products as per the instructions. 
