@@ -12,7 +12,7 @@ My best attempt to implement a fuzzy search component using Vue 3 and Typescript
 
 # Project setup
 
-``sh
+``
 npm install
 ``
 
