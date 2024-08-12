@@ -10,6 +10,18 @@ My best attempt to implement a fuzzy search component using Vue 3 and Typescript
 + Error handling for failed API requests
 + Selected product display with a clear option
 
+# Project setup
+
+``sh
+npm install
+``
+
+# Compile for development
+
+``
+npm run dev
+``
+
 # Technologies Used
 
 + Vue 3
